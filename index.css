@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: serif;
+}
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.top-wrapper{
+    padding: 200px 0 110px 0;
+    background-image: url("img1.jpg");
+    background-size: cover;
+    color: maroon;
+    text-align: center;
+    display: flex;
+
+}
+.top-wrapper h1{
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+header{
+    height: 65px;
+    width: 100%;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float: right;
+    margin-right: 30%
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+
